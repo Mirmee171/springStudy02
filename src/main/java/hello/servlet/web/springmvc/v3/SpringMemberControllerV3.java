@@ -14,7 +14,7 @@ public class SpringMemberControllerV3 {
 
     private MemberRepository memberRepository = MemberRepository.getInstance();
 
-    @GetMapping("new-form")
+    @GetMapping("/new-form")
     public String newForm() {
         return "new-form";
     }
